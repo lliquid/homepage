@@ -1,0 +1,12 @@
+cv/cv_latest/*.fls
+cv/cv_latest/*.aux
+cv/cv_latest/*.fdb_latexmk
+cv/cv_latest/*.log
+cv/cv_latest/*.out
+cv/cv_latest/*.gz
+
+koala/bower_components
+
+*.sublime-project
+*.sublime-workspace
+

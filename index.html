@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>panpan</title>
+    <!--<link rel="stylesheet" href="koala/bower_components/foundation/css/normalize.css">-->
+    <link rel="stylesheet" href="koala/bower_components/foundation/css/foundation.min.css">
+    <link rel="stylesheet" href="koala/css/style.css">
+    <script src="koala/bower_components/jquery/dist/jquery.js"></script>
+    <script src="lib/foundation/js/vendor/modernizr.js"></script>
+    <script src="koala/bower_components/foundation/js/foundation.min.js"></script>
+    <script src="koala/bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+    <script src="koala/bower_components/foundation/js/foundation/foundation.magellan.js"></script>
+</head>
+<body>
+
+<div class="contain-to-grid">
+    <nav class="top-bar" data-topbar>
+            <ul class="title-area text-right">
+                <li class="name">
+                    <h1><a href="#">Panpan Xu</a></h1>
+                </li>
+            </ul>
+            <div class="small-10 small-centered columns">
+                <section class="top-bar-section">
+                    <ul class="left">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="code.html">Code</a></li>
+                        <!--<li><a href="notes.html">Reading notes</a></li>-->
+                        <li><a href="misc.html">Misc</a></li>
+                    </ul>
+                </section>
+            </div>
+    </nav>
+</div>
+
+
+<div class="row">
+    <div class="small-10 small-centered columns">
+
+        <div class="row">
+            <div class="small-12 columns">
+                <div data-magellan-expedition="fixed" data-options="destination_threshold:65;throttle_delay:0;">
+                    <dl class="sub-nav">
+                        <dd data-magellan-arrival="about"><a href="#about">About</a></dd>
+                        <dd data-magellan-arrival="publication"><a href="#publication">Publication</a></dd>
+                        <dd data-magellan-arrival="project"><a href="#project">Project</a></dd>
+                        <dd data-magellan-arrival="cv"><a href="#cv">CV</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="small-9 columns">
+                <h4 id="about" data-magellan-destination="about"></h4>
+                <div class="row">
+                    <div class="small-3 columns">
+                        <img src="files/IMG_0325.JPG">
+                    </div>
+                    <div class="small-9 columns">
+                    <p> I'm currently a PhD student conducting research in information visualization at <a href="http://www.cse.ust.hk/">Department of Computer Science and Engineering</a>, <a href="#"> Hong Kong University of Science and Technology </a>, supervised by <a href="http://www.huamin.org">Prof. Huamin Qu</a>. Before joining HKUST, I obtained Bachelor's degree in Computer Science from Zhejiang University in 2009. </p>
+                    <p>I'm interested in graph visualization and social media data visualization.</p>
+                    </div>
+                </div>
+
+                <br>
+                <h4 id="publication" data-magellan-destination="publication">Publication</h4>
+                <div class="row">
+                    <div class="small-3 columns">
+                        <img class="th" src="files/vast13.PNG">
+                    </div>
+                    <div class="small-9 columns">
+                        <p>Visual Analysis of Topic Competition on Social Media
+                        <br> <i>IEEE Transactions on Visualization and Computer Graphics (VAST 2013) </i>
+                        <br>Panpan Xu, Yingcai Wu, Enxun Wei, Tai-Quan Peng, Shixia Liu, Jonathan J.H. Zhu, Huamin Qu
+                        </p>
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <a href="files/topicomp_vast13.pdf" class="button tiny radius">paper</a>
+                                <a href="files/topicomp_vast13.bib" class="button tiny radius">bib</a>
+                                <a href="files/vast13_topicomp_slides.pdf" class="button tiny radius">slides (large)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-12 columns">
+                        <blockquote> How do various topics compete to attract public attention when they are spreading on social media? What roles do opinion leaders such as mass media, political figures and grassroots play in the rise and fall of various topics? In this study, we combine quantitative modeling and interactive visualization to gain insight into the temporal dynamics of topic competition on social media (e.g.,Twitter).</blockquote>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="small-3 columns">
+                        <img class="th" src="files/eurovis13.PNG">
+                    </div>
+                    <div class="small-9 columns">
+                        <p>Visual Analysis of Set Relations in a Graph
+                            <br> <i>Computer Graphics Forum (Eurovis 2013)</i>
+                            <br> Panpan Xu, Fan Du, Nan Cao, Conglei Shi, Hong Zhou, Huamin Qu
+                        </p>
+
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <a href="files/eurovis13_panpan.pdf" class="button tiny radius">paper</a>
+                                <a href="files/ev13_panpan.bib" class="button tiny radius">bib</a>
+                                <a href="files/artist-similarity.zip" class="button tiny radius">data</a>
+                                <a href="files/0619-euv.pdf" class="button tiny radius">slides</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-12 columns">
+                        <blockquote>In this work, we visualize graphs that are semantically rich. In many cases, graph data not only records the relationship among people, but also the various items they are related to (e.g., interested topics or purchased goods). We design visualizations that can help to study if people linked together have similar items of interest, and introduced a novel set visualization technique to show the overlap of their interests.
+                        </blockquote>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="small-3 columns">
+                        <img class="th" src="files/tsj13.PNG">
+                    </div>
+                    <div class="small-9 columns">
+                        <p>Edge Bundling in Information Visualization
+                            <br><i> Tsinghua Science and Technology, 2013</i>
+                            <br> Hong Zhou, Panpan Xu, Xiaoru Yuan and Huamin Qu
+                        </p>
+
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <a href="files/ts13_edgebundle.pdf" class="button tiny radius">paper</a>
+                                <a href="files/ts13_edgebundle.bib" class="button tiny radius">bib</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-12 columns">
+                        <blockquote>Edge bundling techniques reduce visual clutter and enhance the patterns in node-link graph visualizations and parallel coordinates plot, where edges (lines) act as an important visual primitive to convey information. This work is a survey on the existing edge bundling algorithms.
+                        </blockquote>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="small-3 columns">
+                        <img class="th" src="files/infovis12.PNG">
+                    </div>
+                    <div class="small-9 columns">
+                        <p>RankExplorer: <br> Visualization of Ranking Changes in Large Time Series Data
+                            <br> <i>IEEE Transactions on Visualization and Computer Graphics (InfoVis 2012)</i>
+                            <br> Conglei Shi, Weiwei Cui, Shixia Liu, Panpan Xu, <br> Wei Chen, and Huamin Qu
+                        </p>
+
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <a href="files/rankexplorer12.pdf" class="button tiny radius">paper</a>
+                                <a href="files/rankexplorer12.bib" class="button tiny radius">bib</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-12 columns">
+                        <blockquote>Ranking changes appear in many applications. This paper presents a scalable solution to visualize the ranking change among a large number of items such as search words, which are ranked by their popularity and constantly changes overtime.</blockquote>
+                    </div>
+                </div>
+
+        <h4 id="project" data-magellan-destination="project">Project</h4>
+
+        <div class="row">
+            <div class="small-2 columns"><img class="th" src="files/vor_0_08.bmp"></div>
+            <div class="small-10 columns">
+                <p>Physically realistic smoke and fire synthethesis in computer animation<p>
+                <p>This is a computer graphics project completed during my undergraduate study. A short video can be found <a href="files/smoke_fire.zip">here</a>.</p>
+            </div>
+        </div>
+
+        <h4 id="cv" data-magellan-destination="cv">CV <a href="cv/cv/cv_panpan.pdf">pdf</a> </h4>
+
+        <h5>Education</h5>
+
+        <div class="row">
+            <div class="small-3 columns">
+                <p>2010-current</p>
+            </div>
+            <div class="small-9 columns">
+                <ul class="no-bullet">
+                    <li>PhD Candidate, Computer Science
+                    <!--<ul class="no-bullet">-->
+                        <li>Computer Vision and Graphics lab (VisGraph)</li>
+                        <li>Hong Kong University of Science and Technology</li>
+                        <li>Advisor: Prof. Huamin Qu</li>
+                    <!--</ul>-->
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="small-3 columns">
+                <p>2005-2009</p>
+            </div>
+            <div class="small-9 columns">
+                <ul class="no-bullet">
+                    <li>B.S., Computer Science
+                    <!--<ul class="no-bullet">-->
+                        <li>State Key Lab of Computer Aided Design and Computer Graphics</li>
+                        <li>Chu Kochen Honors College, Zhejiang University</li>
+                        <li>Advisor: Prof. Xiaogang Jin</li>
+                    <!--</ul>-->
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <h5>Employment</h5>
+
+        <div class="row">
+            <div class="small-3 columns">
+                <p>2013</p>
+            </div>
+            <div class="small-9 columns">
+                <ul class="no-bullet">
+                    <li>Research Intern
+                    <!--<ul class="no-bullet">-->
+                        <li>Microsoft Research Asia, Visual Analytics Group</li>
+                    <!--</ul>-->
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <h5>Teaching Assistant Experience</h5>
+
+        <div class="row">
+            <div class="small-3 columns">
+                <p>2010-2013</p>
+            </div>
+            <div class="small-9 columns">
+                <ul class="no-bullet">
+                    <!--<li>Teaching Assistant-->
+                    <!--<ul class="no-bullet">-->
+                        <li>COMP3711 (COMP271) Design and Analysis of Algorithms, Fall 2012, Fall 2011, Fall 2010</li>
+                        <li>COMP4411(COMP341) Computer Graphics, Spring 2013, Spring 2011</li>
+                        <li>COMP152 Object-Oriented Programming and Data Structures, Spring 2010</li>
+                    <!--</ul>-->
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--<h5>Awards</h5>-->
+
+        <!--<div class="row">-->
+            <!--<div class="small-3 columns">-->
+                <!--<p>2006-2008</p>-->
+            <!--</div>-->
+            <!--<div class="small-9 columns">-->
+                <!--<ul class="no-bullet">-->
+                    <!--<li>-->
+                    <!--<ul class="no-bullet">-->
+                        <!--<li>COMP3711 (COMP271) Design and Analysis of Algorithms, Fall 2012, Fall 2011, Fall 2010</li>-->
+                        <!--<li>COMP4411(COMP341) Computer Graphics, Spring 2013, Spring 2011</li>-->
+                        <!--<li>COMP152 Object-Oriented Programming and Data Structures, Spring 2010</li>-->
+                    <!--</ul>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<p>Zhejiang University Academic Scholarship, 2006~2008-->
+            <!--<br/>1st-class, Mathematical Modeling Contest in Zhejiang Province, 2007-->
+            <!--<br/>2nd-class, The 5th Mathematical Modeling Contest in Zhejiang University, 2007-->
+        <!--</p>-->
+
+        <h5>Activities</h5>
+
+        <div class="row">
+            <div class="small-3 columns">
+                <p>2013</p>
+            </div>
+            <div class="small-9 columns">
+                <ul class="no-bullet">
+                    <li>Doctoral Colloquium, VIS 13</li>
+                    <li>Student Volunteer, VIS 13</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!--<h5>Technical Skills</h5>-->
+
+        <!--<p>Programming languages: Java, R, C, C++-->
+            <!--</br>Graphics and visualization toolkits: Prefuse, OpenGL, GPU Programming (CUDA)</p>-->
+
+
+            </div>
+            <div class="small-3 columns">
+                <h4>Contact</h4>
+                <ul class="no-bullet">
+                    <li>e-mail: pxu @cse.ust.hk</li>
+                    <li>phone: 852-51708234</li>
+                    <!--<li>lab: room 4204, academic building</li>-->
+                    <li><a href="http://www.linkedin.com/pub/panpan-xhu/30/4a3/b61"><i class="social-foundicon-linkedin"></i></a></li>
+                    <li><a href="http://www.douban.com/people/panpanxu/">douban</a> </li>
+                </ul>
+                <h4>Links</h4>
+                <ul class="no-bullet">
+                    <li><a href="http://visgraph.cs.ust.hk/">VisGraph Lab</a></li>
+                    <li><a href="http://www.cse.ust.hk/">CSE Department</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+                <!--<h4>Friends</h4>-->
+                <!--<div>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <hr>
+    <div class="small-10 small-centered columns">
+        <p>Panpan Xu, 2014</p>
+    </div>
+    <br>
+    <br>
+</div>
+
+    <script>
+      $(document).foundation().foundation('joyride', 'start');
+    </script>
+</body>
+</html>

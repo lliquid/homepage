@@ -1,0 +1,229 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Panpan} % Your first name
+\familyname{Xu} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+% \title{Curriculum Vitae}
+% \address{}{City, State 12345}
+\mobile{+1 678 462 8619}
+% \phone{}
+% \fax{(000) 111 1113}
+\email{pxu@cse.ust.hk}
+\homepage{panpanxu.org}{panpanxu.org} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{additional information}
+% \photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2010--Present}{Ph.D Candidate, Computer Science}{Hong Kong University of Science and Technology}{}{}{}  % Arguments not required can be left empty
+\cventry{2005--2009}{B.S., Computer Science}{Zhejiang University (Chu Kochen Honors College)}{}{}{}
+
+\subsection{Ph.D Qualification Exam}
+
+\cvitem{Title}{A Survey on Visual Analysis of Graphs}
+\cvitem{Supervisor}{Prof. Huamin Qu}
+
+\subsection{Bachelor's Thesis}
+\cvitem{Title}{Physically Realistic Flow Simulation in Computer Animation}
+\cvitem{Supervisor}{Prof. Xiaogang Jin}
+\cvitem{}{\textit{Developed a prototype system for simulating and rendering visual effects of flows like smoke and fire, speeded by utilizing graphics hardware programming.}}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\cventry{Present}{Visiting Student}{Information Interface Lab (IILab) at Georgia Institute of Technology}{}{}{}
+\cventry{2012-2013}{Research Intern}{Microsoft Research Asia}{Mentor}{Dr. Yingcai Wu}{}
+
+
+\section{Publications}
+
+\cvitem{J-2013}{Visual Analysis of Topic Competition on Social Media. \textit{in IEEE Transactions on Visualization and Computer Graphics (accepted by IEEE Visual Analytics Science and Technology)}} 
+\cvitem{} {\textbf{Panpan Xu}, Yingcai Wu, Enxun Wei, Tai-Quan Peng, Shixia Liu, Jonathan J.H. Zhu, Huamin Qu.}
+\cvitem{} {\textit{Developed a framework that combines analysis techniques (text and time series analysis) with interactive visualization to help analyze  the process of topic competition on Twitter, the opinion leaders' influence in the process, and the topic transition trend of the user groups.}}
+
+\cvitem{J-2013}{Visual Analysis of Set Relations in a Graph. \textit{in Computer Graphics Forum (Proceedings of EuroVis)}}
+\cvitem{} {\textbf{Panpan Xu}, Fan Du, Conglei Shi, Nan Cao, Hong Zhou, Huamin Qu.}
+\cvitem{} {\textit{Developed visualization technique to analyze homophily effect in social networks (a.k.a. ``birds with similar feather fly together''), and a set visualization technique that employs the metaphor of a railway map.}}
+
+\cvitem{J-2013}{Edge Bundling in Information Visualization. in \textit{Tsinghua Science and Technology}}
+\cvitem{}{Hong Zhou, \textbf{Panpan Xu}, Xiaoru Yuan, Huamin Qu}
+\cvitem{}{Surveyed edge bundling techniques used to reduce edge cluttering and to facilitate connection pattern detection in graph drawing.}
+
+\cvitem{J-2012}{RankExplorer: Visualization of Ranking Changes in Large Time Series Data.  \textit{in IEEE Transactions on Visualization and Computer Graphics (Proceedings of InfoVis)}}
+\cvitem{}{Conglei Shi, Weiwei Cui, Shixia Liu, \textbf{Panpan Xu}, Wei Chen, Huamin Qu.}
+\cvitem{}{Visualize the ranking change among a large number of items such as search words, which are ranked by their popularity and constantly changes overtime.}
+
+\cvitem{C-2012}{Visualization of Taxi Drivers' Income and Mobility Intelligence. in \textit{International Symposium on Visual Computing}}
+\cvitem{}{Yuan Gao, \textbf{Panpan Xu}, Lu Lu, He Liu, Siyuan Liu, Huamin Qu}
+
+\cvitem{C-2011}{Visual analysis of people's mobility pattern from mobile phone data. in \textit{International Symposium on Visual Information Communication and Interaction}}
+\cvitem{}{Jiansu Pu, \textbf{Panpan Xu}, Huamin Qu, Weiwei Cui, Siyuan Liu, Lionel M. Ni}
+
+% \subsection{Vocational}
+
+% \cventry{2012--Present}{1\textsuperscript{st} Year Analyst}{\textsc{Lehman Brothers}}{Los Angeles}{}{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (ags, oils, precious and base metals), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.
+% \newline{}\newline{}
+% Detailed achievements:
+% \begin{itemize}
+% \item Learned how to make amazing coffee
+% \item Finally determined the reason for \textsc{PC LOAD LETTER}:
+% \begin{itemize}
+% \item Paper jam
+% \item Software issues:
+% \begin{itemize}
+% \item Word not sending the correct data to printer
+% \item Windows trying to print in letter format
+% \end{itemize}
+% \item Coffee spilled inside printer
+% \end{itemize}
+% \item Broke the office record for number of kitten pictures in cubicle
+% \end{itemize}}
+
+%------------------------------------------------
+
+% \cventry{2010--2011}{Summer Intern}{\textsc{Lehman Brothers}}{Los Angeles}{}{Rated "truly distinctive" for Analytical Skills and Teamwork.}
+
+%------------------------------------------------
+
+% \subsection{Miscellaneous}
+
+%\cventry{2008--2009}{Computer Repair Specialist}{Buy More}{Burbank}{}{Worked in the Nerd Herd and helped to solve computer problems by asking customers to turn their computers off and on again.}
+
+%----------------------------------------------------------------------------------------
+%   PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Publications}
+
+% \cvitem{}{Visual Analysis of Topic Competition on Social Media. \textit{in IEEE Transactions on Visualization and Computer Graphics (accepted by IEEE Visual Analytics Science and Technology)}}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Technical Skills}
+
+\cvitem{Languages} {Java, JavaScript, Python, C/C++, R}
+\cvitem{Vis Toolkits} {D3, Prefuse}
+\cvitem{Graphics} {WebGL, OpenGL, Shader Languages}
+\cvitem{Others} {Version Control Systems (Git), Web Development (html, css, javascript), Databases (MySQL, SQLite), Adobe Illustrator, etc.}
+
+
+%----------------------------------------------------------------------------------------
+%   TEACHING ASSISTANT EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Teaching Assistant Experience}
+
+\cvitem{2010-2013} {Design and Analysis of Algorithms (Fall)}
+\cvitem{2011, 2013} {Computer Graphics (Spring)}
+\cvitem{2010} {Object-Oriented Programming and Data Structures (Spring)}
+
+
+%----------------------------------------------------------------------------------------
+%   AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards and Scholarships}
+
+\cvitem{2010-2013}{Research/Teaching Assistant Studentship, HKUST}
+\cvitem{2006-2008}{Zhejiang University Academic Scholarships}
+\cvitem{2007}{Mathematical Modeling Contest 1st Prize in Zhejiang Province}
+\cvitem{2007}{The 5th Mathematical Modeling Contest of Zhejiang University, 2nd Prize}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Communication Skills}
+
+% \cvitem{2010}{Oral Presentation at the California Business Conference}
+% \cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+
+
+\section{Professional Activities}
+
+\cvitem{2013} {Doctoral Colloquium at VIS Conference}
+\cvitem{2013} {Student Volunteer at VIS Conference}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitem{Chinese}{Mother tongue}
+\cvitem{English}{Fluent (Toefl 104/120, taken in 2008)}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Interests}
+
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+% \cvlistdoubleitem{Piano}{Chess}
+% \cvlistdoubleitem{Cooking}{Dancing}
+% \cvlistitem{Running}
+
+
+\clearpage
+
+\end{document}
