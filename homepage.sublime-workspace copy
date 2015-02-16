@@ -1,0 +1,1372 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"h",
+				"href=\"koala"
+			],
+			[
+				"displ",
+				"display_name"
+			],
+			[
+				"fn",
+				"fn_bill_voters"
+			],
+			[
+				"bi",
+				"bill_voter"
+			],
+			[
+				"print",
+				"printBipartite"
+			],
+			[
+				"all",
+				"all_voters"
+			],
+			[
+				"vo",
+				"voters"
+			],
+			[
+				"key",
+				"keys"
+			],
+			[
+				"bill",
+				"bills"
+			],
+			[
+				"bid",
+				"bidFromVote"
+			],
+			[
+				"pa",
+				"path"
+			],
+			[
+				"am",
+				"amendment"
+			],
+			[
+				"fo",
+				"folder"
+			],
+			[
+				"amd",
+				"amendment"
+			],
+			[
+				"vot",
+				"vote"
+			],
+			[
+				"vote",
+				"vote"
+			],
+			[
+				"votes",
+				"votes_dirs"
+			],
+			[
+				"ty",
+				"type"
+			],
+			[
+				"ame",
+				"amendment"
+			],
+			[
+				"passag",
+				"passage_votes"
+			],
+			[
+				"voted",
+				"voted_bills"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"me",
+				"medianIterationRounds"
+			],
+			[
+				"sta",
+				"start"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"groups",
+				"groups0"
+			],
+			[
+				"ro",
+				"row"
+			],
+			[
+				"min",
+				"minY"
+			],
+			[
+				"max",
+				"maxX"
+			],
+			[
+				"grou",
+				"groups"
+			],
+			[
+				"gro",
+				"groups"
+			],
+			[
+				"gr",
+				"groups"
+			],
+			[
+				"g",
+				"groups"
+			],
+			[
+				"leng",
+				"length"
+			],
+			[
+				"node",
+				"node"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"link",
+				"links"
+			],
+			[
+				"gid",
+				"gid1"
+			],
+			[
+				"get",
+				"getLinks"
+			],
+			[
+				"ti",
+				"tick"
+			],
+			[
+				"forc",
+				"force"
+			],
+			[
+				"force",
+				"forceSimulationTicks"
+			],
+			[
+				"s",
+				"self"
+			],
+			[
+				"this",
+				"this	$(this)"
+			],
+			[
+				"gi",
+				"gid"
+			],
+			[
+				"lengend",
+				"lengendCoord"
+			],
+			[
+				"lengen",
+				"lengendCoord"
+			],
+			[
+				"tra",
+				"translate"
+			],
+			[
+				"leg",
+				"legend"
+			],
+			[
+				"cl",
+				"class	Attr"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"lege",
+				"legendBoxHeight"
+			],
+			[
+				"le",
+				"_linklist.isEmpty(list);"
+			],
+			[
+				"ma",
+				"maxIntersectionCnt"
+			],
+			[
+				"la",
+				"labelFontSize"
+			],
+			[
+				"draw",
+				"drawLegend"
+			],
+			[
+				"styles",
+				"stylesheet"
+			],
+			[
+				"re",
+				"rel	Attr"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"r",
+				"row"
+			],
+			[
+				"ra",
+				"radius"
+			],
+			[
+				"drag",
+				"dragstart"
+			],
+			[
+				"en",
+				"enter"
+			],
+			[
+				"bun",
+				"bundleThreshold"
+			],
+			[
+				"n",
+				"ns1"
+			],
+			[
+				"vi",
+				"visual"
+			],
+			[
+				"vis",
+				"vis"
+			],
+			[
+				"clus",
+				"clusterGraph"
+			],
+			[
+				"t",
+				"tmp"
+			],
+			[
+				"conso",
+				"console.info(message);"
+			],
+			[
+				"clusterLink",
+				"clusterLinkShape"
+			],
+			[
+				"ns",
+				"ns0"
+			],
+			[
+				"line",
+				"line_to"
+			],
+			[
+				"move",
+				"move_to"
+			],
+			[
+				"li",
+				"lid"
+			],
+			[
+				"group",
+				"groups"
+			],
+			[
+				"matri",
+				"matrixCellSize"
+			],
+			[
+				"matr",
+				"matrixCellSize"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"select",
+				"selectAll"
+			],
+			[
+				"si",
+				"size"
+			],
+			[
+				"layou",
+				"layoutGroup"
+			],
+			[
+				"thi",
+				"this"
+			],
+			[
+				"cons",
+				"console.info(message);"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"remove",
+				"remove"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ran",
+				"random"
+			],
+			[
+				"mgd",
+				"mgdNbrs"
+			],
+			[
+				"cluster",
+				"clusterGraph"
+			],
+			[
+				"spe",
+				"spectral_bicluster"
+			],
+			[
+				"nde",
+				"nodeKey"
+			],
+			[
+				"json",
+				"json_graph"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"row",
+				"row_labels_"
+			],
+			[
+				"Spe",
+				"SpectralBiclustering"
+			],
+			[
+				"Spec",
+				"SpectralBiclustering"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"mode",
+				"model"
+			],
+			[
+				"rows",
+				"rows_"
+			],
+			[
+				"Spectr",
+				"SpectralCoclustering"
+			],
+			[
+				"nx",
+				"nx_to_igraph"
+			],
+			[
+				"v",
+				"vidx"
+			],
+			[
+				"add_",
+				"add_vertices"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"projec",
+				"projected_graph"
+			],
+			[
+				"info",
+				"infodecor"
+			],
+			[
+				"sp",
+				"spectral"
+			],
+			[
+				"add",
+				"add_node"
+			],
+			[
+				"wi",
+				"with"
+			],
+			[
+				"au",
+				"authors"
+			],
+			[
+				"auth",
+				"authorsCnt"
+			],
+			[
+				"year",
+				"yearcites"
+			],
+			[
+				"autho",
+				"authors"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"author",
+				"author_concepts"
+			],
+			[
+				"a",
+				"authors"
+			],
+			[
+				"w",
+				"with"
+			],
+			[
+				"lis",
+				"list"
+			],
+			[
+				"keyword",
+				"keywords"
+			],
+			[
+				"index",
+				"indexterms"
+			],
+			[
+				"p",
+				"pinfo"
+			],
+			[
+				"ci",
+				"citation_cnt_google"
+			],
+			[
+				"citat",
+				"citation_cnt_normalized"
+			],
+			[
+				"y",
+				"yearcnt"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "cv/cv_panpan_en.tex",
+			"settings":
+			{
+				"buffer_size": 11410,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cv/cl_panpan_rd.tex",
+			"settings":
+			{
+				"buffer_size": 7253,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cv/research_statement.tex",
+			"settings":
+			{
+				"buffer_size": 6025,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXing/LaTeX.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"run",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"py",
+				"SublimeREPL: Python"
+			],
+			[
+				"runu",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"for",
+				"Format Code"
+			],
+			[
+				"forma",
+				"Format Code"
+			],
+			[
+				"form",
+				"Format Code"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"fo",
+				"Format Code"
+			],
+			[
+				"to",
+				"TodoReview: Project and Open Files"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"pyth",
+				"SublimeREPL: Python"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pyh",
+				"SublimeREPL: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pyt",
+				"SublimeREPL: Python"
+			],
+			[
+				"pace",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Preferences: Browse Packages"
+			],
+			[
+				"python",
+				"SublimeREPL: Python"
+			],
+			[
+				"RUN",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"set",
+				"Set Syntax: TeX"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"late",
+				"Set Syntax: LaTeX Log"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"she",
+				"SublimeREPL: Shell"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"shel",
+				"SublimeREPL: Shell"
+			],
+			[
+				"shell",
+				"SublimeREPL: Shell"
+			],
+			[
+				"node",
+				"SublimeREPL: Node"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"ru",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"ppython",
+				"SublimeREPL: Python"
+			],
+			[
+				"pytho",
+				"SublimeREPL: Python"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"tex",
+				"Set Syntax: LaTeX Beamer"
+			],
+			[
+				"la",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"subline",
+				"SublimeREPL: Python - Sublime Text Console"
+			],
+			[
+				"sublim",
+				"SublimeREPL: Python"
+			],
+			[
+				"rnu",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pythn",
+				"SublimeREPL: Python"
+			],
+			[
+				"pyht",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"sublimeREPL:P",
+				"SublimeREPL: Python"
+			],
+			[
+				"RePL:P",
+				"SublimeREPL: Python"
+			],
+			[
+				"pre",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"sni",
+				"Snippet: if __name__ == '__main__'"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 103.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/panpan/Projects/homepage",
+		"/Users/panpan/Projects/homepage/cv",
+		"/Users/panpan/Projects/homepage/redirection",
+		"/Users/panpan/Projects/homepage/rs",
+		"/Users/panpan/Projects/homepage/vendor"
+	],
+	"file_history":
+	[
+		"/Users/panpan/Projects/homepage/cv/cl_panpan_rd.tex",
+		"/Users/panpan/Projects/homepage/cv/cl_panpan.tex",
+		"/Users/panpan/Projects/homepage/cv/cv_panpan_ch_rd.tex",
+		"/Users/panpan/Projects/homepage/cv/cv_panpan_en rd.tex",
+		"/Users/panpan/Projects/homepage/cv/cv_panpan_ch_eng.tex",
+		"/Users/panpan/Projects/homepage/cv/cv_panpan_ch.tex",
+		"/Users/panpan/Projects/homepage/cv/cv_panpan_en_eng.tex",
+		"/Users/panpan/Projects/homepage/cv/cv_panpan_ch_aca.tex",
+		"/Users/panpan/Projects/homepage/cv/cv_panpan_en.pdf",
+		"/Users/panpan/Projects/homepage/cv/cv_panpan_en.tex",
+		"/Users/panpan/Projects/homepage/cv/cv_panpan_en.out",
+		"/usr/local/texlive/2014/texmf-dist/tex/latex/fontspec/fontspec.sty",
+		"/Users/panpan/Projects/homepage/rs/research_positions_statement_of_purpose.tex",
+		"/Users/panpan/Projects/homepage/misc.html",
+		"/Users/panpan/Projects/homepage/redirection/index.html",
+		"/Users/panpan/Projects/homepage/index.html",
+		"/Users/panpan/Projects/homepage/publications.json",
+		"/Users/panpan/Projects/homepage/bower.json",
+		"/Users/panpan/Projects/homepage/.bowerrc",
+		"/Users/panpan/Projects/homepage/cv/cv_latest/cl_panpan.fdb_latexmk",
+		"/Users/panpan/Projects/homepage/cv/cv_latest/cv_panpan_en.tex",
+		"/Users/panpan/Projects/homepage/cv/cv_latest/cv_panpan_ch.log",
+		"/Users/panpan/Projects/homepage/cv/cv_latest/cv_panpan_ch.tex",
+		"/Users/panpan/Projects/homepage/cv/cv_latest/moderncvstyleclassic.sty",
+		"/Users/panpan/Projects/homepage/cv/cv_latest/moderncv.cls",
+		"/Users/panpan/Projects/homepage/cv/cv_latest/cl_panpan.tex",
+		"/Users/panpan/Library/Application Support/Sublime Text 3/Packages/User/LaTeXing.sublime-settings",
+		"/Users/panpan/Projects/homepage/code.html",
+		"/Users/panpan/Projects/homepage/publish.sh",
+		"/Users/panpan/Projects/homepage/.gitignore",
+		"/C/panpan/Dropbox/homepage/cv/cv_latest/coverletter_panpan_en.synctex.gz",
+		"/C/panpan/Dropbox/homepage/cv/cv_latest/cv_panpan_cn.tex",
+		"/C/panpan/Dropbox/homepage/cv/cv/cv.tex",
+		"/C/panpan/Dropbox/homepage/cv/cv_latest/cv_panpan_en.tex",
+		"/C/panpan/Dropbox/homepage/koala/css/style.css",
+		"/C/panpan/Dropbox/homepage/index.html",
+		"/C/panpan/Dropbox/201407/draft_bigraph13_panpan/texfiles/visual.tex",
+		"/C/panpan/Dropbox/homepage/cv/cv_latest/coverletter_panpan_en.tex",
+		"/C/panpan/Dropbox/homepage/cv/cv/cv_latest.tex",
+		"/C/panpan/Dropbox/201407/draft_bigraph13_panpan/reference.bib",
+		"/C/panpan/Dropbox/201407/draft_bigraph13_panpan/texfiles/intro.tex",
+		"/C/panpan/bivis/site/bivis/js/util/d3legend.js",
+		"/C/panpan/bivis/site/bivis/data/congress_test.py",
+		"/C/panpan/bivis/site/bivis/data/congress.py",
+		"/C/panpan/bivis/site/bivis/data/congress_cocluster.py",
+		"/C/panpan/bivis/site/bivis/demo.html",
+		"/C/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty",
+		"/C/panpan/Dropbox/201407/draft_bigraph13_panpan/texfiles/visual.log",
+		"/C/panpan/Dropbox/201407/draft_bigraph13_panpan/draft_bivis_panpan.fdb_latexmk",
+		"/C/panpan/Dropbox/201407/draft_bigraph13_panpan/draft_bivis_panpan.tex",
+		"/C/panpan/bivis/site/bivis/data/congress/tasks/vote_info.py",
+		"/C/panpan/Dropbox/201407/draft_bigraph13_panpan/texfiles/relatedworks.tex",
+		"/C/panpan/Dropbox/201407/draft_bigraph13_panpan/texfiles/visual.fdb_latexmk",
+		"/C/panpan/Dropbox/201407/draft_bigraph13_panpan/draft_bigraph13_panpan.synctex.gz",
+		"/C/panpan/bivis/site/bivis/data/__init__.py",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/CodeFormatter.sublime-settings",
+		"/C/panpan/polarize/site/influence/js/app/app.js",
+		"/C/panpan/polarize/site/polarize/js/app/config.js",
+		"/C/panpan/polarize/site/influence/Gruntfile.js",
+		"/C/panpan/polarize/site/polarize/css/style.css",
+		"/C/panpan/polarize/site/influence/test.html",
+		"/C/panpan/polarize/site/influence/demo.html",
+		"/C/panpan/polarize/site/influence/questions",
+		"/C/panpan/polarize/site/polarize/js/app/bivis.js",
+		"/C/panpan/polarize/site/influence/js/app/config.js",
+		"/C/panpan/polarize/site/influence/.scenario_reference",
+		"/C/panpan/polarize/site/influence/js/app/bivis.js",
+		"/C/panpan/polarize/site/polarize/demo.html",
+		"/C/panpan/polarize/site/polarize/test.html",
+		"/C/panpan/polarize/site/polarize/Optima-Regular.ttf",
+		"/C/panpan/polarize/site/influence/.scenario",
+		"/C/panpan/polarize/site/polarize/css/foundation/_settings.scss",
+		"/C/panpan/polarize/site/polarize/js/app/app.js",
+		"/C/panpan/polarize/site/polarize/css/foundation/style-foundation.scss",
+		"/C/panpan/polarize/site/polarize/css/foundation/style-foundation.css",
+		"/C/panpan/polarize/site/polarize/vendor/foundation/css/foundation.css",
+		"/C/panpan/polarize/site/polarize/css/foundation/koala-config.json",
+		"/C/panpan/Dropbox/homepage/koala/sass/style.scss",
+		"/C/panpan/data/data.sublime-project",
+		"/C/panpan/Dropbox/201407/visa/readme",
+		"/C/panpan/polarize/site/polarize/data/citevis.py",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/TodoReview.sublime-settings",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/TodoReview/TodoReview.sublime-settings",
+		"/C/panpan/polarize/site/polarize/data/voting.py",
+		"/C/panpan/polarize/site/polarize/vendor/font/Font.js",
+		"/C/panpan/polarize/site/polarize/data/cocluster.py",
+		"/C/panpan/polarize/site/polarize/js/util/geom.js",
+		"/C/panpan/polarize/site/polarize/Gruntfile.js",
+		"/C/panpan/excalibur/source/js/common/algo.js",
+		"/C/panpan/polarize/site/polarize/js/data/graph.js",
+		"/C/panpan/polarize/site/polarize/js/util/algo.js",
+		"/C/panpan/excalibur/source/css/application_dynamic_graph/style.css",
+		"/C/panpan/dantze/site/dantze/templates/book.html",
+		"/C/panpan/polarize/data/cocluster.py",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/panpan/lc/insert_sort_list.py",
+		"/C/panpan/Dropbox/201404/draft_bigraph13_panpan/draft_bigraph13_panpan.tex",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/C/panpan/polarize/data/util.py",
+		"/C/panpan/excalibur/data/analysis/cluster/modularity.py",
+		"/C/panpan/polarize/data/movie.py",
+		"/C/panpan/polarize/data/infovis-citation-author_concept.csv",
+		"/C/panpan/polarize/data/citevis.py",
+		"/C/panpan/polarize/data/__init__.py",
+		"/C/panpan/Dropbox/201404/draft_bigraph13_panpan/texfiles/abstract.tex",
+		"/C/panpan/Dropbox/201404/draft_bigraph13_panpan/texfiles/conclusion.tex",
+		"/C/panpan/polarize/data/infovis-citation.csv",
+		"/C/panpan/polarize/data/infovis-citation-data.txt",
+		"/C/panpan/polarize/site/citestats/bower.json",
+		"/C/panpan/polarize/site/citestats/.bowerrc",
+		"/C/panpan/polarize/site/citestats/package.json",
+		"/C/panpan/excalibur/source/.bowerrc",
+		"/C/panpan/excalibur/temp/order.py",
+		"/C/panpan/excalibur/source/data/graph/dblp_vis_coauthor_community.json",
+		"/C/panpan/excalibur/source/data/graph/tree_layout.json",
+		"/C/panpan/excalibur/temp/order0.json",
+		"/C/panpan/excalibur/temp/order1.json",
+		"/C/panpan/lc/distinct_subsequence.py",
+		"/C/panpan/lc/two_sums.py",
+		"/C/panpan/lc/combinations.py",
+		"/C/panpan/excalibur/source/results/sample.json",
+		"/C/panpan/excalibur/source/results/siwei.json",
+		"/C/panpan/excalibur/source/results/qiaomu.json",
+		"/C/panpan/excalibur/source/results/wenbin.json",
+		"/C/panpan/excalibur/source/results/conglei.json",
+		"/C/panpan/excalibur/source/js/application_dynamic_graph/app.js",
+		"/C/panpan/excalibur/source/results/test.json",
+		"/C/panpan/excalibur/data/dblp_vis_coauthor_community.json"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"congress.py",
+			"",
+			"C:\\panpan\\excalibur\\source\\results\\wenbin.json",
+			"C:\\panpan\\excalibur\\source\\results\\conglei.json, C:\\panpan\\excalibur\\source\\results\\qiaomu.json, C:\\panpan\\excalibur\\source\\results\\wenbin",
+			"C:\\panpan\\excalibur\\source\\results\\conglei.json, C:\\panpan\\excalibur\\source\\results\\qiaomu.json, C:\\panpan\\excalibur\\source\\results\\wenb",
+			"C:\\panpan\\excalibur\\source\\results\\nancao.json, C:\\panpan\\excalibur\\source\\results\\fandu.json, C:\\panpan\\excalibur\\source\\results\\jingjing.json, C:\\panpan\\excalibur\\source\\results\\xiang.json, C:\\panpan\\excalibur\\source\\results\\alicia.json",
+			"C:\\panpan\\excalibur\\source\\results",
+			"draft_thesis_panpan/dynamic/texfiles/*,draft_thesis_panpan/set/texfiles/*,draft_thesis_panpan/topicomp/texfiles/*",
+			"draft_thesis_panpan/dynamic/texfiles/*"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"VisWeek13",
+			"提出并实现了一个可用于社交媒体话题动态竞争性以及用户影响力分析的系统",
+			"{}{}",
+			"search",
+			".\n",
+			".}\n",
+			"Developed",
+			"connections",
+			"  ",
+			"data",
+			"multivariate",
+			"data",
+			"and",
+			"  ",
+			"11",
+			"11th",
+			"return",
+			" }{\\",
+			" }{}{}",
+			"}}",
+			"font",
+			"tweak",
+			"font",
+			"fontsize",
+			".25em",
+			"\"\n",
+			"js",
+			"Gill",
+			"congress/data",
+			"congress\\/data",
+			"direct",
+			"murmur",
+			"mur",
+			"short",
+			"keypoint",
+			"include",
+			"category",
+			"roll",
+			"roll call",
+			"__init__",
+			"field",
+			"select",
+			"layout",
+			"active",
+			"3rem",
+			"label",
+			"Button",
+			"label",
+			"draw",
+			"update",
+			"groupDra",
+			"draw",
+			"dragControl",
+			"clusterLinkShape",
+			"nodeLabel",
+			"nodeLabelCoord",
+			"visual.group",
+			"visual.groups",
+			"visual.group",
+			"visual",
+			"nodeLa",
+			"groupM",
+			"algo",
+			"layout",
+			"self",
+			"scalar",
+			"rect",
+			"rec",
+			"json",
+			"multi",
+			"graph layout",
+			"graph drawing",
+			"cluster",
+			"graph drawing",
+			"coales",
+			"autaihors",
+			"oal",
+			"study",
+			"infovis95--528685",
+			"Voronoi",
+			"voronoi",
+			"coalesced",
+			"infovis95--528686",
+			"infovis97--636761",
+			"184",
+			"176",
+			"167",
+			"article best",
+			"concept",
+			"tend",
+			"\\\\'",
+			"([0-9]. [0-9]. [0-9])",
+			"[0-9]. [0-9]",
+			"\\\\\"",
+			"\\\\'",
+			"\"",
+			"in which",
+			"indicate",
+			"does",
+			"are",
+			",$\\n\\{",
+			"^",
+			"^^()",
+			"^^",
+			"$",
+			"^",
+			"(\\?)",
+			"([0-9]. [0-9]. [0-9])",
+			"ss-q-title",
+			"url",
+			"19198",
+			"19199",
+			"30225",
+			"30155",
+			"8052",
+			"''",
+			"\\'\\'",
+			"DATA_0[2-9]\\\"",
+			"DATA_0([2-9])\\\"",
+			"TEST",
+			"../t",
+			"../",
+			"paper",
+			"\\\\section",
+			"\\\\subsubsection",
+			"\\\\subsection",
+			"\\subsection",
+			"\\\\subsection"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			".22em",
+			"highlight",
+			"this",
+			"",
+			"$1.",
+			"\"",
+			"",
+			"\\\\\"",
+			"\\\"",
+			"In which",
+			"Indicate",
+			"Does",
+			"Are",
+			"]},\\n\\{",
+			"],\\n\\{",
+			"],$\\n\\{",
+			"{\"type\": \"multiple-choice\", \\n \"choices\": [",
+			"\"type\": \"multiple-choice\"",
+			"\",",
+			"\"",
+			"?\",",
+			"?\"",
+			"\"$1",
+			"#",
+			"\"$",
+			"\"\"",
+			"DATA_0$\", \\n \"initial_focus\": '', \\n \"initial_snapshots\": [] , \\n \"highlights_timeline\": [], \\n \"highlights_small_multiple\": []",
+			"DATA_0$\",\"initial_focus\": '', \\n",
+			"TEST_DATA_",
+			"t",
+			"",
+			"tvcg14",
+			"chapter",
+			"work",
+			"chapter",
+			"work",
+			"$1",
+			"dynamic/figs/",
+			"chapter",
+			"work",
+			"In this chapter",
+			"chapter",
+			"this work",
+			"In this work",
+			"in this work",
+			"",
+			"$1",
+			"",
+			"$1",
+			"",
+			"$1",
+			"set/figs/",
+			"topicomp/figs/",
+			" topicomp/figs/",
+			" ",
+			"",
+			"name",
+			"id",
+			"name",
+			"id",
+			"name",
+			"id",
+			"name",
+			"id"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "cv/cv_panpan_en.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11410,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2311,
+								2311
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Creamy.tmTheme",
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "cv/cl_panpan_rd.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3804,
+								3804
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Creamy.tmTheme",
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 847.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "cv/research_statement.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2207,
+								2207
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Creamy.tmTheme",
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 491.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 122.0
+	},
+	"output.find_results":
+	{
+		"height": 30.0
+	},
+	"project": "homepage.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"polarize\\site\\polarize\\js\\app\\config.js"
+			],
+			[
+				"wei",
+				"snippet_weighted_graph.py"
+			],
+			[
+				"sorting",
+				"snippet_sorting.py"
+			],
+			[
+				"sor",
+				"snippet_sorting.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/bivis.sublime-workspace"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

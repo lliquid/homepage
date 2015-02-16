@@ -1,0 +1,261 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85, right=2cm]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{2.0cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+%\usepackage{hyperref}
+
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+
+\usepackage{float}
+\usepackage{fontspec}
+\newfontfamily\zhfont[BoldFont=Heiti SC Medium]{Heiti SC}
+\newfontfamily\zhpunctfont{Heiti SC}
+\usepackage{indentfirst}
+\usepackage{zhspacing}
+\zhspacing
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{徐盼盼} % Your first name
+\familyname{Panpan XU} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{cv}
+%\address{}{Room 2394, Academic Building, Hong Kong University of Science and Technology}
+\mobile{(852) 5170-8234}
+% \phone{}
+% \fax{(000) 111 1113}
+\email{pxu@cse.ust.hk}
+\homepage{panpanxu.org}{panpanxu.org} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+
+\extrainfo{\href{http://github.com/lliquid}{github: http://github.com/lliquid} \\\href{http://hk.linkedin.com/pub/panpan-xu}{linkedin: http://hk.linkedin.com/pub/panpan-xu}}
+% \photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%\section{Summary}
+
+%\cvitem{}{I am a PhD candidate in Hong Kong University of Science and Technology. My research focus is in information visualization, esp. heterogeneous graph data visualization and visual analysis of social
+%media data. I am interested in combining analysis and interactive visualization techniques to gain insight into large and complex data. }
+
+\section{个人简介}
+\cvitem{}{香港科技大学计算机系博士. 主要研究方向为信息可视化，图的可视分析，以及社交媒体可视分析. 致力于结合自动化的数据挖掘算法和直观的可视化呈现，以从大量数据中得到有价值的信息.}
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Education}
+
+%\cventry{2010--Now}{Ph.D Candidate, Computer Science}{Hong Kong University of Science and Technology}{}{}{}  % Arguments not required can be left empty
+%\cventry{2005--2009}{B.S., Computer Science}{Zhejiang University (Chu Kochen Honors College)}{}{}{}
+
+\section{教育经历}
+\cventry{2010--2014}{博士生， 计算机专业}{香港科技大学}{}{}{}
+\cvitem{}{博士论文: Visual Analysis of Heterogeneous and Dynamic Graphs}
+\cvitem{}{导师: 屈华明教授}
+\cventry{2005--2009}{本科，计算机专业}{浙江大学 (竺可桢学院)}{}{}{}
+
+%\subsection{本科毕业论文}
+%\cvitem{主题}{动画中基于物理真实的流体运动模拟与渲染}
+%\cvitem{导师}{金小刚}
+%\cvitem{}{\textit{开发了一个应用于流体运动(烟雾和火焰)模拟与渲染的系统，使用图形处理器加速}}
+
+
+\section{奖项}
+
+\cvitem{2014}{最佳会议论文奖, International Symposium on Visual Information Communication and Interaction}
+\cvitem{2014}{香港科技大学海外访问奖学金}
+\cvitem{2013}{可视化年会 (IEEE VIS) 博士生论坛 Student Travel Grant}
+\cvitem{2010-2014}{香港科技大学助教及助研奖学金}
+\cvitem{2006-2008}{浙江大学学业奖学金(一等及二等奖学金)}
+\cvitem{2007}{数学建模大赛浙江省一等奖}
+
+\section{已发表期刊论文}
+
+\cvitem{[J5]}{Visualization of Bipartite Relations between Graphs and Sets. \textit{in Journal of Visualization}, 2014}
+\cvitem{}{Hong Zhou, \textbf{Panpan Xu}, Huamin Qu}
+\vspace{0.2cm}
+
+\cvitem{[J4, C5]}{Visual Analysis of Topic Competition on Social Media. \textit{in IEEE Transactions on Visualization and Computer Graphics (VAST 13)}, 2013} 
+\cvitem{} {\textbf{Panpan Xu}, Yingcai Wu, Enxun Wei, Tai-Quan Peng, Shixia Liu, Jonathan J.H. Zhu, Huamin Qu
+	\begin{itemize}
+	\item 主要内容: 提出并实现了一个可用于社交媒体话题动态竞争性以及用户影响力分析的可视化系统
+	\item 技术: 文本及时间序列分析与建模，动态图可视化
+	\end{itemize}}
+\vspace{-0.6cm}
+\begin{flushright}
+\scriptsize [5-year Impact Factor: 2.242, SCI分区: Q1, CCF 分类: A]
+\end{flushright}
+
+\cvitem{[J3, C4]}{Visual Analysis of Set Relations in a Graph. \textit{in Computer Graphics Forum (EuroVis 13)}, 2013}
+\cvitem{} {\textbf{Panpan Xu}, Fan Du, Conglei Shi, Nan Cao, Hong Zhou, Huamin Qu
+	\begin{itemize}
+	\item 主要内容: 提出了新的可视化设计用于社交网络中的同质性现象分析，以及集合关系分析
+	\item 技术: 文本话题分析，可视设计
+	\end{itemize}
+}
+\vspace{-0.6cm}
+\begin{flushright}
+\scriptsize [5-year Impact Factor: 1.92, SCI分区: Q1, CCF 分类: B]
+\end{flushright}
+
+
+\cvitem{[J2]}{Edge Bundling in Information Visualization. in \textit{Tsinghua Science and Technology}, 2013}
+\cvitem{}{Hong Zhou, \textbf{Panpan Xu}, Xiaoru Yuan, Huamin Qu
+	\begin{itemize}
+	\item 主要内容: 图可视化及平行坐标可视化中的边聚合算法综述
+	\end{itemize}
+}
+\vspace{0.2cm}
+
+\cvitem{[J1, C3]}{RankExplorer: Visualization of Ranking Changes in Large Time Series Data.  \textit{in IEEE Transactions on Visualization and Computer Graphics (InfoVis 13)}, 2012}
+\cvitem{}{Conglei Shi, Weiwei Cui, Shixia Liu, \textbf{Panpan Xu}, Wei Chen, Huamin Qu
+	\begin{itemize}
+	\item 主要内容: 提出了新的可视化设计用于大规模动态排序数据(例如搜索引擎关键词排名)的可视化分析
+	\end{itemize}
+}
+\vspace{-0.6cm}
+\begin{flushright}
+\scriptsize [5-year Impact Factor: 2.242, SCI分区: Q1, CCF 分类: A]
+\end{flushright}
+
+
+\section{已发表会议论文}
+
+\cvitem{[C6]}{Parallel Coordinates with Data Labels. \textit{in Proceedings of the 7th International Symposium on Visual Information Communication and Interaction (VINCI 14)}, \textbf{Best Paper Award}, 2014}
+\cvitem{}{Hong Zhou, \textbf{Panpan Xu}, Zhong Ming, Huamin Qu}
+\vspace{0.2cm}
+
+\cvitem{[C2]}{Visualization of Taxi Drivers' Income and Mobility Intelligence. in \textit{International Symposium on Visual Computing}, 2012}
+\cvitem{}{Yuan Gao, \textbf{Panpan Xu}, Lu Lu, He Liu, Siyuan Liu, Huamin Qu}
+\vspace{0.2cm}
+
+\cvitem{[C1]}{Visual analysis of people's mobility pattern from mobile phone data. in \textit{International Symposium on Visual Information Communication and Interaction}, 2011}
+\cvitem{}{Jiansu Pu, \textbf{Panpan Xu}, Huamin Qu, Weiwei Cui, Siyuan Liu, Lionel M. Ni}
+\vspace{0.2cm}
+
+\section{审稿中论文}
+
+\cvitem{}{Interactive Exploration of Bipartite Graphs with Co-clustering. \textit{submitted to EuroVis 15}}
+\cvitem{}{\textbf{Panpan Xu}, Nan Cao, John Stasko, Huamin Qu}
+\vspace{0.2cm}
+
+\section{实习与访问经历}
+\cventry{2014}{佐治亚理工大学访问学者}{Information Interface Lab (IILab) at Georgia Institute of Technology}{}{\newline{}导师: Prof. John Stasko}{}
+\cventry{2012-2013}{实习生}{微软亚洲研究院}{}{\newline{}导师: Dr. Yingcai Wu (巫英才)}{}
+
+
+\section{其它项目}
+\cvitem{2014} {可视化会议25周年庆 现场展示 - 论文数据集及互引信息可视化
+	\begin{itemize}
+	\item 合作者: IILab in Georgia Tech
+	\item 动态多维度图可视化
+	\item 技术: D3.js, underscore.js, bootstrap, networkx
+	\item \href{http://www.cc.gatech.edu/gvu/ii/citevis/VIS25/}{\textbf{Demo}}
+	\end{itemize}
+}
+
+\cvitem{2013} {大规模移动用户check-in数据可视分析
+	\begin{itemize}
+	\item 合作者: 华为香港诺亚方舟实验室 (Huawei Noah's Ark Lab)
+	\item 多维度时空数据可视分析
+	\item 用户行为分析
+	\end{itemize}
+}
+
+
+\section{技术技能}
+
+\cvitem{语言} {Java, JavaScript, Python, C/C++, R}
+\cvitem{可视化库} {D3.js, Prefuse}
+\cvitem{图形库} {WebGL (Three.js), OpenGL, Shader Language (GLSL) and CUDA}
+\cvitem{其它} {版本管理系统 (Git, SVN), web 开发 (html, css, javascript), web 前端框架 (React.js), 数据库 (MySQL, SQLite), 图形设计与编辑 (Adobe Illustrator), etc.}
+
+
+%----------------------------------------------------------------------------------------
+%   TEACHING ASSISTANT EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{教学经历}
+
+\cvitem{}{负责设计试题，讲解习题与实验等}
+\cvitem{2010-2013} {助教: 算法设计与分析 (Design and Analysis of Algorithms)}
+\cvitem{2011, 2013} {助教: 计算机图形学 (Computer Graphics)}
+\cvitem{2010} {助教: 面向对象程序设计和数据结构 (Object-Oriented Programming and Data Structures)}
+
+
+%----------------------------------------------------------------------------------------
+%   AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\clearpage
+
+\section{其他}
+
+\cvitem{} {IEEE VIS 13 (可视化年会) 博士生论坛}
+\cvitem{} {IEEE VIS 13 (可视化年会) 学生志愿者}
+\cvitem{}{审稿人 \begin{itemize}
+\item IEEE VIS (VAST and InfoVis)
+\item The EG/VGTC Conference on Visualization (EuroVis)
+\item IEEE Pacific Visualization Symposium (PacificVis)
+\end{itemize}}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+\section{语言}
+
+\cvitem{英文}{流利 (Toefl 104/120, 2008)}
+
+% \section{References}
+% \cvitem{}{Prof. Huamin Qu}
+% \cvitem{}{Dr. Yingcai Wu}
+% \cvitem{}{Dr. Nan Cao}
+
+\clearpage
+
+\end{document}

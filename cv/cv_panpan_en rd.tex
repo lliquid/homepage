@@ -1,0 +1,249 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.86, right=1.8cm]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{2.0cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+%\usepackage{hyperref}
+
+\usepackage{float}
+\usepackage{indentfirst}
+
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Panpan} % Your first name
+\familyname{Xu} % Your last name
+
+\mobile{+852 5170 8234}
+% \phone{}
+% \fax{(000) 111 1113}
+\email{pxu@cse.ust.hk}
+\homepage{panpanxu.org}{panpanxu.org} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+
+\extrainfo{\href{http://github.com/lliquid}{github: http://github.com/lliquid} \\\href{http://hk.linkedin.com/pub/panpan-xu}{linkedin: http://hk.linkedin.com/pub/panpan-xu}}
+% \photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+\section{Summary}
+
+\cvitem{}{I have recently finished my PhD thesis in Hong Kong University of Science and Technology. My research focus is in information visualization, esp. heterogeneous graph data visualization and visual analysis of social
+media data. I am interested in combining data mining and interactive visualization techniques to gain insight into large and complex data sets.}
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2010--2014}{Ph.D, Computer Science}{Hong Kong University of Science and Technology}{}{}{}  % Arguments not required can be left empty
+\cvitem{}{Thesis: Visual Analysis of Heterogeneous and Dynamic Graphs}
+\cvitem{}{Supervisor: Prof. Huamin Qu}
+\cventry{2005--2009}{B.S., Computer Science}{Zhejiang University (Chu Kochen Honors College)}{}{}{}
+
+
+%\subsection{Ph.D Qualification Exam}
+%\cvitem{Title}{A Survey on Visual Analysis of Graphs}
+%\cvitem{Supervisor}{Prof. Huamin Qu}
+
+%\subsection{Bachelor's Thesis}
+%\cvitem{Title}{Physically Realistic Flow Simulation in Computer Animation}
+%\cvitem{Supervisor}{Prof. Xiaogang Jin}
+%\cvitem{}{\textit{Developed a prototype system for simulating and rendering visual effects of flows like smoke and fire, speeded by utilizing graphics hardwares.}}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards and Scholarships}
+
+
+\cvitem{2014}{Best Paper Award, International Symposium on Visual Information Communication and Interaction (VINCI)}
+\cvitem{2014}{HKUST Overseas Research Award}
+\cvitem{2013}{IEEE VisWeek (VAST, InfoVis, SciVis) Doctoral Colloquium Student Travel Grant}
+\cvitem{2010-2014}{HKUST Research/Teaching Assistant Studentship}
+\cvitem{2006-2008}{Zhejiang University Academic Scholarships (1st and 2nd Classes)}
+\cvitem{2007}{Mathematical Modeling Contest 1st Prize in Zhejiang Province}
+\cvitem{2007}{The 5th Mathematical Modeling Contest of Zhejiang University, 2nd Prize}
+
+
+\section{Referred Journal Papers}
+
+\cvitem{[J6]}{Visualization of Bipartite Relations between Graphs and Sets. \textit{in Journal of Visualization}, 2014}
+\cvitem{}{Hong Zhou, \textbf{Panpan Xu}, Huamin Qu}
+
+\vspace{0.2cm}
+
+\cvitem{[J5]}{MViewer: mobile phone spatiotemporal data viewer. \textit{in Frontiers of Computer Science}, 2014}
+\cvitem{}{Jiansu Pu, Siyuan Liu, \textbf{Panpan Xu}, Huamin Qu, Lionel M. Ni}
+
+\vspace{0.2cm}
+
+\cvitem{[J4, C5]}{Visual Analysis of Topic Competition on Social Media. \textit{in IEEE Transactions on Visualization and Computer Graphics (VAST 13)}, 2013} 
+\cvitem{} {\textbf{Panpan Xu}, Yingcai Wu, Enxun Wei, Tai-Quan Peng, Shixia Liu, Jonathan J.H. Zhu, Huamin Qu.}
+\cvitem{} {Developed a framework combining \textit{text and time series analysis} techniques with \textit{interactive visualization} to gain insight into the dynamics of the competition among different topics for the public's attention \newline{} on \textit{social media}.\looseness=-1}
+
+\vspace{0.2cm}
+
+\cvitem{[J3, C4]}{Visual Analysis of Set Relations in a Graph. \textit{in Computer Graphics Forum (EuroVis 13)}, 2013}
+\cvitem{} {\textbf{Panpan Xu}, Fan Du, Conglei Shi, Nan Cao, Hong Zhou, Huamin Qu.}
+\cvitem{} {Developed visualization techniques to analyze the homophily effect in a \textit{social network}, and proposed a \textit{set visualization} method employing the metaphor of railway maps.}
+
+\vspace{0.2cm}
+
+\cvitem{[J2]}{Edge Bundling in Information Visualization. in \textit{Tsinghua Science and Technology}, 2013}
+\cvitem{}{Hong Zhou, \textbf{Panpan Xu}, Xiaoru Yuan, Huamin Qu}
+\cvitem{}{Surveyed edge bundling techniques used for edge clutter reduction and linkage pattern enhancement \newline{} in \textit{graph drawings} and \textit{parallel coordinate plots}.}
+
+\vspace{0.2cm}
+
+\cvitem{[J1, C3]}{RankExplorer: Visualization of Ranking Changes in Large Time Series Data.  \textit{in IEEE Transactions on Visualization and Computer Graphics (InfoVis 12)}, 2012}
+\cvitem{}{Conglei Shi, Weiwei Cui, Shixia Liu, \textbf{Panpan Xu}, Wei Chen, Huamin Qu.}
+\cvitem{}{Visualized the ranking change among a large number of items such as search phrases, which are ranked by their popularity and constantly change over time.}
+
+\vspace{0.2cm}
+
+\section{Referred Conference Papers}
+
+\cvitem{[C6]}{Parallel Coordinates with Data Labels. \textit{in Proceedings of the 7th International Symposium on Visual Information Communication and Interaction (VINCI 14)}, \textbf{Best Paper Award}, 2014}
+\cvitem{}{Hong Zhou, \textbf{Panpan Xu}, Zhong Ming, Huamin Qu}
+
+\vspace{0.2cm}
+
+\cvitem{[C2]}{Visualization of Taxi Drivers' Income and Mobility Intelligence. in \textit{International Symposium on Visual Computing}, 2012}
+\cvitem{}{Yuan Gao, \textbf{Panpan Xu}, Lu Lu, He Liu, Siyuan Liu, Huamin Qu}
+
+\vspace{0.2cm}
+
+\cvitem{[C1]}{Visual analysis of people's mobility pattern from mobile phone data. in \textit{International Symposium on Visual Information Communication and Interaction}, 2011}
+\cvitem{}{Jiansu Pu, \textbf{Panpan Xu}, Huamin Qu, Weiwei Cui, Siyuan Liu, Lionel M. Ni}
+
+\vspace{0.2cm}
+
+\section{Work in Progress}
+\cvitem{}{Interactive Exploration of Bipartite Graphs with Co-clustering. \textit{submitted to EuroVis 15}}
+\cvitem{}{\textbf{Panpan Xu}, Nan Cao, John Stasko, Huamin Qu}
+
+\section{Internship and Visiting Experiences}
+\cvitem{2014}{Visiting Student, Information Interface Lab (IILab) at Georgia Institute of Technology \newline{} Mentor: Prof. John Stasko}
+\vspace{0.2cm}
+\cvitem{2012-2013}{Research Intern, Microsoft Research Asia \newline{} Mentor: Dr. Yingcai Wu}
+
+\section{Selected Projects}
+\cvitem{2014} {Citation Visualization VIS 25 Anniversary \newline{} (with Information Interface Lab in Georgia Tech, displayed at IEEE VIS conference)}
+\cvitem{}{\begin{itemize}
+\item Responsible for the visual design and the implementation of the demo
+\item Visualization implemented with D3.js, underscore.js, and networkx graph library in Python
+\item \href{http://www.cc.gatech.edu/gvu/ii/citevis/VIS25/}{Live at http://www.cc.gatech.edu/gvu/ii/citevis/VIS25/}
+\end{itemize}}
+
+\vspace{0.2cm}
+
+\cvitem{2013} {Visual Analysis of Mobile Checkin Data (with Huawei Noah's Ark Lab).}
+\cvitem{}{\begin{itemize}
+\item Responsible for the overall design of the system
+\item Large scale spatial-temporal data visualization
+\item User behaviour analysis
+\item Visualization implemented with Java, Prefuse visualization library and OpenStreetMap API
+\end{itemize}}
+
+\section{Technical Skills}
+
+\cvitem{Languages} {Java, JavaScript, Python, C/C++, R, C\#}
+\cvitem{Vis Toolkits} {D3.js, Prefuse}
+\cvitem{Graphics} {WebGL, OpenGL, Shader Language (GLSL), CUDA (earlier versions)}
+\cvitem{Others} {Version Control Systems (Git), Web Development (html, css, javascript), Front-end framework (React.js), Databases (MySQL, SQLite), Graphic Design Softwares (Adobe Illustrator), Visualization softwares (Tableau, Spotfire), etc.}
+
+
+%----------------------------------------------------------------------------------------
+%   TEACHING ASSISTANT EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Teaching Assistant Experience}
+
+\cvitem{2010-2013} {Design and Analysis of Algorithms}
+\cvitem{2011, 2013} {Computer Graphics}
+\cvitem{2010} {Object-Oriented Programming and Data Structures}
+\cvitem{}{The tasks of teaching assistant include leading tutorial and lab sessions of the course, designing exam questions, and grading homeworks.}
+
+
+%----------------------------------------------------------------------------------------
+%   AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+\section{Professional Activities}
+
+\cvitem{} {Doctoral Colloquium Attendee, IEEE VisWeek 2013}
+\cvitem{} {Student Volunteer, IEEE VisWeek 2013}
+\cvitem{} {Reviewer
+\vspace{0.1cm}
+\begin{itemize}
+\item IEEE VIS (VAST and InfoVis)
+\item The EG/VGTC Conference on Visualization (EuroVis)
+\item IEEE Pacific Visualization Symposium (PacificVis)
+\end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Languages}
+
+%\cvitem{Chinese}{Mother tongue}
+%\cvitem{English}{Fluent (Toefl 104/120, taken in 2008)}
+
+\section{References}
+
+\cvitem{Huamin Qu}{Associate Professor, Hong Kong University of Science and Technology}
+\cvitem{John Stasko}{Professor, Georgia Institute of Technology}
+\cvitem{Yingcai Wu}{Researcher, Microsoft Reseach Asia}
+%\cvitem{Nan Cao}{Researcher, IBM T.J. Watson Research Center}
+
+\cvitem{}{Reference letters available upon request.}
+
+\clearpage
+
+\end{document}
