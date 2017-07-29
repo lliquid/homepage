@@ -428,7 +428,7 @@ blockquote {
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
-    color: #898989; }
+    color: #666; }
     blockquote cite:before {
       content: "\2014 \0020"; }
     blockquote cite a,
@@ -437,8 +437,8 @@ blockquote {
 
 blockquote,
 blockquote p {
-  line-height: 1.5;
-  color: #aaaaaa; }
+  line-height: 1.25;
+  color: #666; }
 
 /* Microformats */
 .vcard {
