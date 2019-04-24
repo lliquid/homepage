@@ -1,0 +1,29 @@
+img.th {
+
+	border-radius: 3px;
+	margin-top: 2px;
+	margin-bottom: 14px;
+	border-color: #fff;
+	border-width: 1px;
+
+	padding-right: 8px;
+	padding-left: 8px;
+
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+img.th:hover {
+	border-color: #999;
+}
+
+
+a.tiny-link {
+	margin-right: 10px;
+	font-size: 12px;
+	color: #999;
+}
+
+a.tiny-link:hover {
+	color: #000;
+}

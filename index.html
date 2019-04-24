@@ -5,12 +5,14 @@
     <!--<link rel="stylesheet" href="koala/bower_components/foundation/css/normalize.css">-->
     <link rel="stylesheet" href="koala/bower_components/foundation/css/foundation.min.css">
     <link rel="stylesheet" href="koala/css/style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="koala/bower_components/jquery/dist/jquery.js"></script>
     <script src="lib/foundation/js/vendor/modernizr.js"></script>
     <script src="koala/bower_components/foundation/js/foundation.min.js"></script>
     <script src="koala/bower_components/foundation/js/foundation/foundation.topbar.js"></script>
     <script src="koala/bower_components/foundation/js/foundation/foundation.magellan.js"></script>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">   
 </head>
 <body>
 
@@ -25,8 +27,6 @@
                 <section class="top-bar-section">
                     <ul class="left">
                         <li><a href="index.html">Home</a></li>
-                        <!-- <li><a href="code.html">Code</a></li> -->
-                        <!--<li><a href="notes.html">Reading notes</a></li>-->
                         <!-- <li><a href="misc.html">Misc</a></li> -->
                     </ul>
                 </section>
@@ -54,82 +54,95 @@
         <div class="row">
             <div class="small-12 columns">
                 <h4 id="about" data-magellan-destination="about"></h4>
-                <div class="row" style="background-color:#f2f4f2; padding-top:20px;">
+                <div class="row" style="background-color:#f2f4f2; padding-top:20px; padding-bottom: 20px;">
+                    <div class="small-4 columns">
+                        <a href="files/headshot-2019.jpg">
+                           <img src="files/155600514465554072.gif">
+                        </a>                       
+                    </div>
+                    <div class="small-8 columns">
+                    <p> &nbsp&nbsp Panpan Xu (徐盼盼), Research Scientist at <a href="https://www.bosch.com/research/">Bosch Research</a>, Sunnyvale, CA. 
+                    <br> &nbsp&nbsp My research focus is empowering people to understand data and communicate their insights more efficiently through the development of new interactive visualization systems and data mining algorithms. I use a multi-disciplinary approach by combining techniques in <i>machine learning</i>, <i>data visualization</i>, and <i>human-computer interaction</i>.
+                    <br> &nbsp&nbsp Currently, I am working on the following topics: (1) <i> visual summarization techniques</i> for distilling knowledge from large-scale and complex data (2) <i>interpretable and steerable machine learning</i> and (3) <i>application-driven</i> development of visual analytics systems.
+                    <br> &nbsp&nbsp I hold PhD and Bachelor's in Computer Science from <a href="https://en.wikipedia.org/wiki/Hong_Kong_University_of_Science_and_Technology">Hong Kong University of Science and Technology</a> and <a href="https://en.wikipedia.org/wiki/Zhejiang_University">Zhejiang University</a>, respectively. </p>
+                    <div class="row">
+                        <div class="small-6 columns">
+                            <ul class="no-bullet">
+                                <li><b>e-mail</b>: panpan.xu(at)us.bosch.com </li>
+                                <!-- <li><b>Research interest</b>: visual analytics, data mining</li> -->
+                                <!-- <br>xpp2007(at)gmail.com -->
+                                <li><b>links</b>: 
+                                <a href="https://github.com/lliquid"><i class="fa fa-github-alt fa-lg" ></i></a>
+                                <a href="http://hk.linkedin.com/pub/panpan-xu/30/4a3/b61/"><i class="fa fa-linkedin-square fa-lg"></i> </a>
+                                <a href="https://twitter.com/panpan_xu"><i class="fa fa-twitter-square fa-lg"></i> </a>
+                                <a href="https://www.douban.com/people/panpanxu/"><img src="files/douban_icon.svg" width="16px" height="16px" style="padding-bottom: 3px;"></a> 
+                                <a href="https://www.instagram.com/lliquidxu/?hl=en"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="small-6 columns">
+                            <ul class="no-bullet">
+                                <li ><b>travels</b>:  <span style="font-size: 12px;">
+                                    <br> Jun '19 -- CVPR, Los Angeles
+                                    <br> Oct '18 -- VIS, Berlin
+                                </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <br>
+                <h4 id="publication" data-magellan-destination="publication">Selected Publications </h4> <p>(Full list: <a href="https://scholar.google.com/citations?user=3xinL0EAAAAJ&hl=en">Google Scholar</a>)</p>
+                <br>
+
+                <div class="row">
                     <div class="small-3 columns">
-                        <img src="files/828902.png">
+                        <a href="files/draft_vis18_st.pdf">
+                            <img class="th" src="files/TPFlow.png">
+                        </a>
                     </div>
                     <div class="small-9 columns">
-                    <p> Currently I am a Research Scientist at Bosch Research North America (Sunnyvale, CA). Prior to that, I obtained PhD in Computer Science in <a href="#"> Hong Kong University of Science and Technology </a>, supervised by <a href="http://www.huamin.org">Prof. Huamin Qu</a>, and Bachelor's degree in Computer Science from Zhejiang University. </p>
-                    <ul class="no-bullet">
-                        <li><b>E-mail</b>: panpan.xu at us.bosch.com, xpp2007 at gmail.com</li>
-                        <li><b>Research interest</b>: visual analytics, data mining</li>
-                        <li><b>Links</b>:
-                        <a href="https://github.com/lliquid"><i class="fa fa-github-alt fa-lg" ></i></a>
-                        <a href="http://hk.linkedin.com/pub/panpan-xu/30/4a3/b61/"><i class="fa fa-linkedin-square fa-lg"></i> </a>
-                        <a href="https://twitter.com/panpan_xu"><i class="fa fa-twitter-square fa-lg"></i> </a>
-                        <a href="https://www.douban.com/people/panpanxu/"><img src="files/douban_icon.svg" width="20px" height="20px"></a> 
-
-                        <!-- <a href="https://twitter.com/lliquidx"><i class="fa fa-twitter fa-lg" href=></i></a> -->
-                        <!-- <a href="http://www.weibo.com/2654332594/" ><i class="fa fa-weibo fa-lg"></i></a> -->
-                        </li>
-                        <li><b>News</b>: Two papers accepted to VAST 18 TVCG track. One paper got best paper award.</li>
-                        <li><b>News</b>: Event sequence visualization paper accepted to VAST 17 TVCG track.  (<a href="files/ss_vast17_full_video.mp4">video</a> and <a href="files/ss_vast17.pdf">paper</a> and <a href="files/ss_vast17_sup.pdf">supplementary material</a>)</li>
-                    </ul>
-                    </div>
-                </div>
-
-                <br>
-                <h4 id="publication" data-magellan-destination="publication">Publications </h4> <p>(Full list: <a href="https://scholar.google.com/citations?user=3xinL0EAAAAJ&hl=en">Google Scholar</a>)</p>
-                <br>
-                <p>* students I supervised.</p>
-
-                <div class="row">
-                    <div class="small-4 columns">
-                        <img class="th" src="files/st_vast18_algo.png">
-                    </div>
-                    <div class="small-8 columns">
                         <p><b>TPFlow: Progressive Partition and Multidimensional Pattern Extraction for Large-Scale Spatio-Temporal Data Analysis </b> 
-                        <br><i>IEEE Transactions on Visualization and Computer Graphics (VAST 2018, to appear)</i><br> <span class="award"><b>[Best Paper Award]</b></span>
-                        <br> Dongyu Liu*, Panpan Xu, Liu Ren
-                        </p>
-                        <div class="row">
-                            <div class="small-12 columns">
-                                <a href="files/draft_vis18_st.pdf" class="button tiny radius">paper</a>
+                    <i>IEEE Transactions on Visualization and Computer Graphics (VAST 2018)</i><br> <span class="award"> <i class="fa fa-trophy" aria-hidden="true"></i>
+<b>Best Paper Award</b></span>
+                        <br> Dongyu Liu (intern), <b>Panpan Xu</b>, Liu Ren <br>
+
+                                <a href="files/draft_vis18_st.pdf" class="tiny-link">paper</a>
                                 <!-- <a href="files/ss_vast17_sup.pdf" class="button tiny radius">supplementary material</a>                                 -->
-                                <a href="files/video_vast18_tpflow_1920x1080_v7.mp4" class="button tiny radius">video (50MB download)</a>
-                                <a href="files/draft_vis18_st.bib" class="button tiny radius">bib</a>
-                            </div>
-                        </div>
-                        <div class="row">
-                        <blockquote>We model multidimensional ST data as tensors and propose a novel piecewise rank-one tensor decomposition algorithm which simultaneously slices the data into homogeneous partitions and extracts the latent patterns for each partition for comparison and visual summarization. </blockquote>
-                        </div>
-                    </div>
+                                <a href="files/video_vast18_tpflow_1920x1080_v7.mp4" class="tiny-link">video (50MB download)</a>
+                                <a href="files/draft_vis18_st.bib" class="tiny-link">bib</a>
+
+                        <!-- <div class="row"> -->
+                        <!-- <blockquote>We model multidimensional ST data as tensors and propose a novel piecewise rank-one tensor decomposition algorithm which simultaneously slices the data into homogeneous partitions and extracts the latent patterns for comparison and visual summarization. </blockquote> -->
+                        <!-- </div> -->
+
+                    </p></div>
                 </div>
 
                 <br>
 
-
                 <div class="row">
-                    <div class="small-4 columns">
-                        <img class="th" src="files/vibr_vast18_algo.png">
+                    <div class="small-3 columns">
+                        <a href="files/draft_vis18_bico.pdf">
+                            <img class="th" src="files/vibr_vast18_algo.png">                            
+                        </a>
                     </div>
-                    <div class="small-8 columns">
+                    <div class="small-9 columns">
                         <p> <b>ViBR: Visualizing Bipartite Relations at Scale with the Minimum Description Length Principle </b> 
-                        <br> <i> IEEE Transactions on Visualization and Computer Graphics (VAST 2018, to appear) </i>
-                        <br> Gromit Yeuk-Yin Chan*, Panpan Xu, Zeng Dai, Liu Ren
-                        </p>
-                        <div class="row">
-                            <div class="small-12 columns">
-                                <a href="files/draft_vis18_bico.pdf" class="button tiny radius">paper</a>
-                                <!-- <a href="files/ss_vast17_sup.pdf" class="button tiny radius">supplementary material</a>                                 -->
-                                <a href="files/video_vast18_vibr_1920x1080_v5.mp4" class="button tiny radius">video (78MB download)</a>
-                                <a href="files/draft_vis18_vibr.bib" class="button tiny radius">bib</a>
-                            </div>
-                        </div>
-                        <div class="row">
-                        <blockquote> We propose a novel visual summarization technique
-for bipartite graphs based on the minimum description length (MDL) principle. The method simultaneously groups the two different set of nodes and constructs aggregated bipartite relations with balanced granularity and precision. An efficient algorithm based on locality sensitive hashing (LSH) further enables interactive analysis of large bipartite graphs. </blockquote>
-                        </div>
+                        <br> <i> IEEE Transactions on Visualization and Computer Graphics (VAST 2018) </i>
+                        <br> Gromit Yeuk-Yin Chan (intern), <b>Panpan Xu</b>, Zeng Dai, Liu Ren <br>
+                                <a href="files/draft_vis18_bico.pdf" class="tiny-link">paper</a>
+                                <a href="files/chan-vast2018-appendix.pdf" class="tiny-link">supplementary material</a>
+                                <a href="files/video_vast18_vibr_1920x1080_v5.mp4" class="tiny-link">video (78MB download)</a>
+                                <a href="files/draft_vis18_vibr.bib" class="tiny-link">bib</a>
+                                                </p>
+
+                        <!-- <div class="row"> -->
+                        <!-- <blockquote> We propose a visual summarization technique -->
+<!-- for bipartite graphs based on the minimum description length (MDL) principle. The method groups the nodes and constructs aggregated bipartite relations with balanced granularity and precision. An efficient algorithm based on locality sensitive hashing (LSH) enables interactive analysis of large bipartite graphs. </blockquote> -->
+                        <!-- </div> -->
                     </div>
                 </div>
 
@@ -137,25 +150,24 @@ for bipartite graphs based on the minimum description length (MDL) principle. Th
 
 
                 <div class="row">
-                    <div class="small-4 columns">
-                        <img class="th" src="files/ss_vast17_teaser2.png">
+                    <div class="small-3 columns">
+                        <a href="files/ss_vast17.pdf">
+                            <img class="th" src="files/ss.png">
+                        </a>
                     </div>
-                    <div class="small-8 columns">
+                    <div class="small-9 columns">
                         <p> <b>Sequence Synopsis: Optimize Visual Summary of Temporal Event Data </b> 
                         <br> <i> IEEE Transactions on Visualization and Computer Graphics (VAST 2017) </i>
-                        <br> Yuanzhe Chen*, Panpan Xu, Liu Ren
+                        <br> Yuanzhe Chen (intern), <b>Panpan Xu</b>, Liu Ren <br>
+                                <a href="files/ss_vast17.pdf" class="tiny-link">paper</a>
+                                <a href="files/ss_vast17_sup.pdf" class="tiny-link">supplementary material</a>                                
+                                <a href="files/ss_vast17_full_video.mp4" class="tiny-link">video(82MB download)</a>
+                                <a href="files/ss_vast17.bib" class="tiny-link">bib</a>
                         </p>
-                        <div class="row">
-                            <div class="small-12 columns">
-                                <a href="files/ss_vast17.pdf" class="button tiny radius">paper</a>
-                                <a href="files/ss_vast17_sup.pdf" class="button tiny radius">supplementary material</a>                                
-                                <a href="files/ss_vast17_full_video.mp4" class="button tiny radius">video(82MB download)</a>
-                                <a href="files/ss_vast17.bib" class="button tiny radius">bib</a>
-                            </div>
-                        </div>
-                        <div class="row">
-                        <blockquote> We propose a novel event sequence data summarization technique based on the minimum description length (MDL) principle. The method addresses a fundamental trade-off in visualization design: reducing visual clutter vs. increasing the information content in the display. The algorithm enables simultaneous sequence clustering and pattern extraction and is highly tolerant to noises such as missing or additional events in the data. It is applied to two real world use cases: fault development path analysis in vehicles and user click stream analysis in software application logs. </blockquote>
-                        </div>
+                        <!-- <div class="row"> -->
+                        <!-- <blockquote> We propose an event sequence summarization technique based on the minimum description length (MDL) principle. The method addresses a fundamental trade-off in visualization design: reducing visual clutter vs. increasing the information content in the display. The algorithm enables simultaneous sequence clustering and pattern extraction and is highly tolerant to noises such as missing or additional events.</blockquote> -->
+                       
+
                     </div>
                 </div>
 
@@ -163,97 +175,96 @@ for bipartite graphs based on the minimum description length (MDL) principle. Th
 
 
                 <div class="row">
-                    <div class="small-4 columns">
-                        <img class="th" src="files/citematrix.png">
+                    <div class="small-3 columns">
+                        <a href="https://hal.inria.fr/hal-01376597/document">
+                            <img class="th" src="files/citevis.png">
+                        </a>
                     </div>
-                    <div class="small-8 columns">
+                    <div class="small-9 columns">
                         <p> <b>VisPubData.org: A Metadata Collection about IEEE Visualization (VIS) Publications</b> 
                         <br> <i> IEEE Transactions on Visualization and Computer Graphics 2017 </i>
-                        <br> Petra Isenberg, Florian Heimerl, Steffen Koch, Tobias Isenberg, Panpan Xu, Chad Stolper, Michael Sedlmair, Jian Chen, Torsten M&#246;ller, John Stasko
+                        <br> Petra Isenberg, Florian Heimerl, Steffen Koch, Tobias Isenberg, <b>Panpan Xu</b>, Chad Stolper, Michael Sedlmair, Jian Chen, Torsten M&#246;ller, John Stasko <br>
+                                <a href="https://hal.inria.fr/hal-01376597/document" class="tiny-link">paper</a>
+                                <a href="http://www.vispubdata.org/site/vispubdata/" class="tiny-link">data</a>
+                                <a href="http://www.cc.gatech.edu/gvu/ii/citevis/VIS25/" class="tiny-link">visualization demo site</a>
                         </p>
-                        <div class="row">
-                            <div class="small-12 columns">
-                                <a href="http://www.vispubdata.org/site/vispubdata/" class="button tiny radius">data</a>
-                                <a href="http://www.cc.gatech.edu/gvu/ii/citevis/VIS25/" class="button tiny radius">visualization demo site</a>
-                            </div>
+<!--                         <div class="row">
+                        <blockquote>We introduce a dataset that contains information on IEEE Visualization (IEEE VIS) publications from 1990-2015 and several sample visualizations. The dataset includes a variety of information about each paper including title, authors, DOI, etc., as well as a list of the citations to other previous VIS papers. </blockquote>
                         </div>
-                        <div class="row">
-                        <blockquote>Introduce a dataset that contains information on IEEE Visualization (IEEE VIS) publications from 1990-2015 and several sample visualizations. The dataset includes a variety of information about each paper including title, authors, DOI, etc., as well as a list of the citations to other previous VIS papers. </blockquote>
-                        </div>
-                    </div>
+ -->                    </div>
                 </div>
 
                 <br>
 
                 <div class="row">
-                    <div class="small-4 columns">
-                        <img class="th" src="files/vidx_vast16.png">
+                    <div class="small-3 columns">
+                        <a href="files/vidx_vast16.pdf">
+                            <img class="th" src="files/vidx.png">
+                        </a>
                     </div>
-                    <div class="small-8 columns">
+                    <div class="small-9 columns">
                         <p><b>ViDX: Visual Diagnostics of Assembly Line Performance in Smart Factories</b> 
-                        <br> <i> IEEE Transactions on Visualization and Computer Graphics (VAST 2016)  </i> <br><span class="award"><b>[Best Paper Honorable Mention Award]</b></span>
-                        <br>Panpan Xu, Honghui Mei*, Liu Ren, Wei Chen
-                        </p>
-                        <div class="row">
-                            <div class="small-12 columns">
-                                <a href="files/vidx_vast16.pdf" class="button tiny radius">paper</a>
-                                <a href="https://vimeo.com/178407870" class="button tiny radius">video (vimeo)</a>
-                                <a href="files/vidx_video.mp4" class="button tiny radius">video (download)</a>
-                                <a href="files/vidx_vast16.bib" class="button tiny radius">bib</a>
-                            </div>
+                        <br> <i> IEEE Transactions on Visualization and Computer Graphics (VAST 2016)  </i> <br><span class="award"><i class="fa fa-star" aria-hidden="true"></i>
+<b>Best Paper Honorable Mention Award</b></span>
+                        <br><b>Panpan Xu</b>, Honghui Mei (intern) , Liu Ren, Wei Chen
+                        <br>
+<!--                         <div class="row">
+                            <div class="small-12 columns"> -->
+                                <a href="files/vidx_vast16.pdf" class="tiny-link">paper</a>
+                                <a href="https://vimeo.com/178407870" class="tiny-link">video (vimeo)</a>
+                                <a href="files/vidx_video.mp4" class="tiny-link">video (download)</a>
+                                <a href="files/vidx_vast16.bib" class="tiny-link">bib</a>
+<!--                             </div>
+                        </div> -->
+<!--                         <div class="row">
+                        <blockquote> Visual analytics plays a key role in connected industry (or industry 4.0, industrial internet) as modern machines generate large amounts of data and effective data exploration techniques are needed for troubleshooting and process optimization. We report the design and implementation of a visual analytics system that supports both real-time tracking of assembly line performance and historical data exploration to identify inefficiencies and locate anomalies.</blockquote>
                         </div>
-                        <div class="row">
-                        <blockquote> Visual analytics plays a key role in the era of connected industry (or industry 4.0, industrial internet) as modern machines generate large amounts of data and effective visual exploration techniques are needed for troubleshooting, process optimization, and decision making. We report the design and implementation of a comprehensive visual analytics system, ViDX. It supports both real-time tracking of assembly line performance and historical data exploration to identify inefficiencies, locate anomalies, and form hypotheses about their causes and effects.</blockquote>
-
-                        </div>
-                    </div>
+ -->                    </p></div>
                 </div>
 
                 <br>
 
                 <div class="row">
-                    <div class="small-4 columns">
-                        <img class="th" src="files/cocluster_pvis16.png">
+                    <div class="small-3 columns">
+                        <a href="files/cocluster_pvis16.pdf">
+                            <img class="th" src="files/bb.png">
+                        </a>
                     </div>
-                    <div class="small-8 columns">
+                    <div class="small-9 columns">
                         <p> <b>Interactive Visual Co-cluster Analysis of Bipartite Graphs</b>
                         <br> <i> IEEE Pacific Visualization Symposium (PacificVis)}, 2016 </i>
-                        <br> Panpan Xu, Nan Cao, Huamin Qu, John Stasko
+                        <br><b>Panpan Xu</b> , Nan Cao, Huamin Qu, John Stasko <br>
+                                <a href="files/cocluster_pvis16.pdf" class="tiny-link">paper</a>
+                                <a href="files/cocluster_pvis16.bib" class="tiny-link">bib</a>
                         </p>
-                        <div class="row">
-                            <div class="small-12 columns">
-                                <a href="files/cocluster_pvis16.pdf" class="button tiny radius">paper</a>
-                                <a href="files/cocluster_pvis16.bib" class="button tiny radius">bib</a>
-                            </div>
-                        </div>
-                        <div class="row">
+
+<!--                         <div class="row">
                         <blockquote> Examples of bipartite relations include the votes from legislators for the passage of bills and amendments, the involvement of researchers in various topics, and the affiliation of individuals with different social groups. This paper introduce a visual analytic system for co-cluster analysis in bipartite graphs.</blockquote>                            
                         </div>
-                    </div>
+ -->                    </div>
                 </div>
 
                 <br>                
 
                 <div class="row">
-                    <div class="small-4 columns">
-                        <img class="th" src="files/vast13.PNG">
+                    <div class="small-3 columns">
+                        <a href="files/topicomp_vast13.pdf">
+                        <img class="th" src="files/vast13.PNG">                            
+                        </a>
                     </div>
-                    <div class="small-8 columns">
+                    <div class="small-9 columns">
                         <p><b>Visual Analysis of Topic Competition on Social Media</b>
                         <br> <i>IEEE Transactions on Visualization and Computer Graphics (VAST 2013) </i>
-                        <br>Panpan Xu, Yingcai Wu, Enxun Wei, Tai-Quan Peng, Shixia Liu, Jonathan J.H. Zhu, Huamin Qu
+                        <br><b>Panpan Xu</b>, Yingcai Wu, Enxun Wei, Tai-Quan Peng, Shixia Liu, Jonathan J.H. Zhu, Huamin Qu <br>
+                                <a href="files/topicomp_vast13.pdf" class="tiny-link">paper</a>
+                                <a href="files/topicomp_vast13.bib" class="tiny-link">bib</a>
+                                <a href="files/vast13_topicomp_slides.pdf" class="tiny-link">slides (large)</a>
                         </p>
-                        <div class="row">
-                            <div class="small-12 columns">
-                                <a href="files/topicomp_vast13.pdf" class="button tiny radius">paper</a>
-                                <a href="files/topicomp_vast13.bib" class="button tiny radius">bib</a>
-                                <a href="files/vast13_topicomp_slides.pdf" class="button tiny radius">slides (large)</a>
-                            </div>
-                        </div>
-                        <div class="row">
+
+<!--                         <div class="row">
                         <blockquote> How do various topics compete to attract public attention when they are spreading on social media? What roles do opinion leaders such as mass media, political figures and grassroots play in the rise and fall of various topics? In this study, we combine quantitative modeling and interactive visualization to gain insight into the temporal dynamics of topic competition on social media (e.g.,Twitter).</blockquote>                            
                         </div>
-                    </div>
+ -->                    </div>
                 </div>
                 <div class="row">
                     <div class="small-12 columns">
@@ -263,63 +274,35 @@ for bipartite graphs based on the minimum description length (MDL) principle. Th
                 <br>
 
                 <div class="row">
-                    <div class="small-4 columns">
-                        <img class="th" src="files/eurovis13.PNG">
+                    <div class="small-3 columns">
+                        <a href="files/ts13_edgebundle.pdf">
+                            <img class="th" src="files/bundle.PNG">
+                        </a>
                     </div>
-                    <div class="small-8 columns">
-                        <p><b>Visual Analysis of Set Relations in a Graph</b>
-                            <br> <i>Computer Graphics Forum (Eurovis 2013)</i>
-                            <br> Panpan Xu, Fan Du, Nan Cao, Conglei Shi, Hong Zhou, Huamin Qu
-                        </p>
-
-                        <div class="row">
-                            <div class="small-12 columns">
-                                <a href="files/eurovis13_panpan.pdf" class="button tiny radius">paper</a>
-                                <a href="files/ev13_panpan.bib" class="button tiny radius">bib</a>
-                                <a href="files/artist-similarity.zip" class="button tiny radius">data</a>
-                                <a href="files/0619-euv.pdf" class="button tiny radius">slides</a>
-                            </div>
-                        </div>
-                        <div class="row">
-                        <blockquote>In many cases, graph data not only records the relationship among people, but also the various items they are related to (e.g., interested topics or purchased goods). We design visualizations that can help to study if people linked together have similar items of interest, and introduced a novel set visualization technique to show the overlap of their interests.</blockquote>
-                        </div>
-                    </div>
-                </div>
-
-                <br>
-
-                <div class="row">
-                    <div class="small-4 columns">
-                        <img class="th" src="files/tsj13.PNG">
-                    </div>
-                    <div class="small-8 columns">
+                    <div class="small-9 columns">
                         <p><b>Edge Bundling in Information Visualization</b>
                             <br><i> Tsinghua Science and Technology, 2013</i>
-                            <br> Hong Zhou, Panpan Xu, Xiaoru Yuan and Huamin Qu
-                        </p>
+                            <br> Hong Zhou, <b>Panpan Xu</b>, Xiaoru Yuan and Huamin Qu <br>
 
-                        <div class="row">
-                            <div class="small-12 columns">
-                                <a href="files/ts13_edgebundle.pdf" class="button tiny radius">paper</a>
-                                <a href="files/ts13_edgebundle.bib" class="button tiny radius">bib</a>
-                            </div>
-                        </div>
-                        <div class="row">
+                                <a href="files/ts13_edgebundle.pdf" class="tiny-link">paper</a>
+                                <a href="files/ts13_edgebundle.bib" class="tiny-link">bib</a>
+                        </p>
+<!--                         <div class="row">
                         <blockquote>Edge bundling techniques reduce visual clutter and enhance the patterns in node-link graph visualizations and parallel coordinates plot, where edges (lines) act as an important visual primitive to convey information. This work is a survey on the existing edge bundling algorithms.</blockquote>
                         </div>
-                    </div>
+ -->                    </div>
                 </div>
 
-                <br>
+<!--                 <br>
 
                 <div class="row">
                     <div class="small-4 columns">
                         <img class="th" src="files/infovis12.PNG">
-                    </div>
+                    </div>ßß
                     <div class="small-8 columns">
                         <p><b>RankExplorer: Visualization of Ranking Changes in Large Time Series Data</b>
                             <br> <i>IEEE Transactions on Visualization and Computer Graphics (InfoVis 2012)</i>
-                            <br> Conglei Shi, Weiwei Cui, Shixia Liu, Panpan Xu, <br> Wei Chen, and Huamin Qu
+                            <br> Conglei Shi, Weiwei Cui, Shixia Liu, <b>Panpan Xu</b>, <br> Wei Chen, and Huamin Qu
                         </p>
 
                         <div class="row">
@@ -332,7 +315,7 @@ for bipartite graphs based on the minimum description length (MDL) principle. Th
                         <blockquote>Ranking changes appear in many applications. This paper presents a scalable solution to visualize the ranking change among a large number of items such as search words, which are ranked by their popularity and constantly changes overtime.</blockquote>
                         </div>
                     </div>
-                </div>
+                </div> -->
         <br>
 
 <!--         <h4 id="project" data-magellan-destination="project">Misc Projects</h4>
@@ -400,14 +383,14 @@ for bipartite graphs based on the minimum description length (MDL) principle. Th
             </div>
             <div class="small-9 columns">
                 <ul class="no-bullet">
-                    <li>IEEE VIS (VAST) Papers, 2017 - 2018
+                    <li>IEEE VIS (VAST) Papers, 2017 - 2019
                     </li>
                     <li>IEEE Pacific Visualization Symposium (PacificVis) Papers, 2017 - 2019
                     </li>
                     <li>IEEE Pacific Visualization Symposium (PacificVis) Notes, 2016
                     </li>
                     <li>International Symposium on Visual Computing (ISVC), 2018</li>
-                    <li>ChinaVis, 2017 - 2018</li>
+                    <li>ChinaVis, 2017 - 2019</li>
                 </ul>
             </div>
         </div>
@@ -424,17 +407,46 @@ for bipartite graphs based on the minimum description length (MDL) principle. Th
                     <li>The EG/VGTC Conference on Visualization (EuroVis)<li>
                     <li>IEEE Pacific Visualization Symposium (PacificVis)</li>
                     <li>IEEE Computer Graphics and Applications Magazine</li>
+                    <li>Very Large Data Bases (VLDB)</li>
+                </ul>
+            </div>
+        </div> 
+
+        <div class="row">
+            <div class="small-3 columns">
+                <p><b>Organizing Committee</b></p>
+            </div>
+            <div class="small-9 columns">
+                <ul class="no-bullet">
+                    <li>IEEE Visualization in Data Science (VDS) Web Chair (colocated with IEEE VIS), 2019
+                    </li>
                 </ul>
             </div>
         </div>        
+
+        <h4>Misc</h4>
+
+        <div class="row">
+            <div class="small-12 columns">
+<!--                 <p>I enjoy traveling to different places and this is a map summarizing where I have been to and for how long I stayed. Click for photos :)</p>
+                
+
+
+                <p>Books is a huge part of </p>
+
+                <p>Food a food channel that i watch quite often to get inspired </p>
+ -->            </div>
         </div>
+        </div>
+
+
     </div>
 </div>
 
 <div class="row">
     <hr>
     <div class="small-10 small-centered columns">
-        <p>Panpan Xu, 2018</p>
+        <p>Panpan Xu, 2019</p>
     </div>
     <br>
     <br>
