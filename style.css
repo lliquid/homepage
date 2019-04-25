@@ -27,3 +27,7 @@ a.tiny-link {
 a.tiny-link:hover {
 	color: #000;
 }
+
+p, li {
+	font-size: 15px;
+}
