@@ -33,6 +33,11 @@ p, li {
 	font-size: 1em;
 }
 
+dd > a {
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
 
 @media only screen and (max-width: 64.063em) {
 
@@ -48,6 +53,9 @@ p, li {
 		display: none;
 	}*/
 
+	dd > a {
+		font-size: 1.8em;
+	}
 
 	img.th {
 		opacity: 0.85;
