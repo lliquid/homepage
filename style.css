@@ -20,7 +20,7 @@ img.th:hover {
 
 a.tiny-link {
 	margin-right: 10px;
-	font-size: 12px;
+	font-size: 1em;
 	color: #999;
 
 }
@@ -30,18 +30,35 @@ a.tiny-link:hover {
 }
 
 p, li {
-	font-size: 15px;
+	font-size: 1em;
 }
 
 
 @media only screen and (max-width: 64.063em) {
 
 	p, li, a.tiny-link {
-		font-size: 18px;
+		font-size: 1.1em;
 	}
 
-	img.th {
+/*	img.th {
 		max-width: 20em;
+	}*/
+
+/*	img.th {
+		display: none;
+	}*/
+
+
+	img.th {
+		opacity: 0.85;
+	}
+
+	img.th:hover{
+		opacity: 1.0;
+	}
+
+	h4 {
+		font-size: 1.3em;
 	}
 
 }
