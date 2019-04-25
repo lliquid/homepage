@@ -22,6 +22,7 @@ a.tiny-link {
 	margin-right: 10px;
 	font-size: 12px;
 	color: #999;
+
 }
 
 a.tiny-link:hover {
@@ -35,12 +36,12 @@ p, li {
 
 @media only screen and (max-width: 64.063em) {
 
-	p, li {
+	p, li, a.tiny-link {
 		font-size: 18px;
 	}
 
 	img.th {
-		width: 200px;
+		max-width: 20em;
 	}
 
 }
